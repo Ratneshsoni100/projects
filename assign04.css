@@ -1,0 +1,680 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    height: 900px;
+    background-color: slateblue;
+    border-bottom-right-radius: 200px;
+}
+
+.ul {
+    height: 80px;
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    color: aliceblue;
+    background-color: slateblue;
+    border-top-left-radius: 50px;
+    transition: all 3ms;
+}
+
+.ul h1::first-letter {
+    color: aliceblue;
+    font-size: 100px;
+
+}
+
+.ul h1:hover::first-letter {
+    color: rgba(0, 0, 0, 0.281);
+    transform: scale(5);
+}
+
+.ul li:hover {
+    color: black;
+    transform: translateY(20px);
+    transform: scale(1.5);
+    text-shadow: 2px 2px rgb(247, 150, 150);
+}
+
+.ul input {
+    border: 2px black;
+    margin-left: 100px;
+    background-color: rgba(183, 173, 250, 0.459);
+    height: 50px;
+    border-radius: 50px;
+    font-weight: 800;
+}
+
+.onee {
+    height: 600px;
+    width: 850px;
+    background-image: url(https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG9mZmljZSUyMHRhYmxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 10;
+    margin-left: 0px;
+    border-radius: 40px;
+    margin-bottom: 200px;
+}
+
+.h1 {
+    color: rgb(241, 241, 241);
+    font-size: 70px;
+    font-style: oblique;
+    font-weight: 200px;
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 400px;
+}
+
+.onee h3 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: black;
+    font-style: oblique;
+    font-size: x-large;
+    font-weight: 200px;
+}
+
+.onee button {
+    background-color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    border: none;
+    position: relative;
+    top: 110px;
+    left: 300px;
+    border-radius: 50px;
+    color: slateblue;
+    font-size: large;
+}
+
+.onee button:hover {
+    background-color: slateblue;
+    color: aliceblue;
+    /* box-shadow: 5px 5px 5px 5px grey; */
+    cursor: pointer;
+}
+
+.two {
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.twoin {
+    padding-top: 70px;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: hwb(248 70% 3% / 0.267);
+    position: relative;
+}
+
+.twop {
+    padding-top: 30px;
+    margin-top: 10px;
+    background-color: slateblue;
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    position: absolute;
+    top: -120px;
+    left: 130px;
+    transition: all ease linear 2s;
+
+}
+
+.twop img:hover {
+    transform: translateY(15px);
+    color: rgb(0, 0, 0);
+}
+
+.twopbutton {
+    background-color: whitesmoke;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    color: slateblue;
+    font-size: medium;
+    margin-top: 30px;
+    border: none;
+}
+
+.twopbutton:hover {
+    background-color: slateblue;
+    color: aliceblue;
+}
+
+.three {
+
+    height: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.threeone {
+    height: 500px;
+    width: 500px;
+    margin-left: 250px;
+    border-radius: 20px;
+    display: inline;
+    list-style: none;
+    padding-top: 80px;
+    background-color: slateblue;
+    box-shadow: black 8px 8px 8px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 1;
+
+
+}
+
+.threeli {
+    height: 60px;
+    width: 400px;
+    margin: 30px;
+    margin-left: 50px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    padding-left: 20px;
+
+}
+
+.threeli>button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    color: aliceblue;
+    background-color: slateblue;
+    transition: all 1s;
+}
+
+.threeli>button:hover {
+
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.threetwo {
+    height: 450px;
+    width: 500px;
+    background-color: hwb(248 70% 3% / 0.267);
+    padding: 50px;
+    position: absolute;
+    left: 720px;
+    transition: all 1s ease-in-out;
+}
+
+.three:hover .threetwo {
+    transform: translateX(25px);
+}
+
+.threetwo>button {
+    background-color: whitesmoke;
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    color: slateblue;
+    font-size: medium;
+    margin-top: 30px;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+}
+
+.threetwo>button:hover {
+    background-color: slateblue;
+    color: aliceblue;
+}
+
+.uu {
+    height: 50px;
+    width: 500px;
+    border-radius: 50px;
+    background-color: rgb(175, 164, 243);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 390px;
+    margin-top: -50px;
+}
+
+.uu li {
+    font-size: large;
+    font-weight: 600;
+}
+
+.uu>li:hover {
+    color: black;
+}
+
+.grid {
+    margin-top: 50px;
+    padding-left: 60px;
+    height: 750px;
+    display: grid;
+    grid-template-areas: "head head head" "side side side";
+
+
+}
+
+.on {
+    height: 350px;
+    width: 350px;
+    border-radius: 40px;
+    background-color: rgba(175, 164, 243, 0.308);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.on h2 {
+    position: absolute;
+    top: -25px;
+    left: 270px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 15px;
+    justify-content: center;
+    align-content: center;
+    font-size: x-large;
+    color: aliceblue;
+    background-color: rgba(115, 99, 219, 0.788);
+    transition: all ease 1s;
+}
+
+.on:hover h2 {
+    transform: scale(1.5);
+}
+
+.on img {
+    height: 250px;
+    width: 350px;
+    border-radius: 40px;
+}
+
+.on button {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    height: 40px;
+    width: 110px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    color: slateblue;
+    background-color: rgba(240, 248, 255, 0.644);
+}
+
+.on:hover button {
+    color: aliceblue;
+    background-color: slateblue;
+}
+
+.on>h1:hover {
+    color: slateblue;
+}
+
+.half {
+    margin-top: 50px;
+    border: 1px solid slateblue;
+    height: 300px;
+    width: 90%;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: slateblue;
+    font-size: x-large;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.teacherbox {
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.teacher {
+    height: 300px;
+    width: 250px;
+    border-radius: 40px;
+    background-color: rgba(175, 164, 243, 0.39);
+    position: relative;
+
+}
+
+.teacher>p {
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+.teacher>h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.teacher>h2:hover {
+    color: slateblue;
+}
+
+.divv {
+    height: 20%;
+    margin-top: px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.divv i {
+    color: aliceblue;
+}
+
+.divv i:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -80px;
+    left: 25px;
+    border-radius: 100%;
+    transition: all ease-in-out;
+}
+
+.teacher:hover .img {
+    transform: translateY(-15px);
+    box-shadow: 5px 5px 5px 5px rgba(137, 121, 238, 0.582);
+}
+
+.four {
+    /* border: 1px solid greenyellow; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fourone {
+    height: 400px;
+    width: 600px;
+    border-radius: 40px;
+    background-color: slateblue;
+    display: inline-block;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    z-index: 1;
+    transition: all ease-in-out 1s;
+}
+
+.four:hover .fourone {
+    transform: translateX(25px);
+    border-end-start-radius: 80%;
+    border-top-left-radius: 80%;
+}
+
+.fourp {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.p {
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 150px;
+    margin-top: 50px;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.fourtwo {
+    height: 500px;
+    width: 700px;
+    text-align: center;
+    /* padding-top: 250px; */
+    padding-left: 140px;
+    border-end-start-radius: 80%;
+    border-top-left-radius: 80%;
+    position: absolute;
+    top: 0;
+    left: 500px;
+    background-color: rgba(145, 129, 245, 0.26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(33, 61, 85);
+    font-weight: bolder;
+    transition: all ease-in-out 2s;
+}
+
+.four:hover .fourtwo {
+    border-end-start-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.iimg {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.funbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 20px;
+    margin-top:100px ;
+    background-color:  rgba(145, 129, 245, 0.26);
+
+}
+.funbody>h1{
+    margin-bottom: 20px;
+}
+
+.container{
+    /* border: 2px solid red; */
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    }
+    .panel{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    border-radius: 50px;
+    height: 80vh;
+    margin: 0 10px;
+    flex: 0.5;
+    cursor: pointer;
+    position: relative;
+    transition: all 1s ease-in-out;
+    }
+    .panel h3{
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    margin: 0;
+    }
+    .panel.active{
+    flex: 5;
+    }
+    .panel.active h3{
+    opacity: 1;
+    color: aliceblue;
+    left: 25%;
+    font-size: 40px;
+    text-transform: uppercase;
+    }
+
+.formbody {
+    margin-top: 100px;
+    position: relative;
+    height: 100vh;
+    /* background-image: url('https://media.istockphoto.com/id/1342018576/photo/blue-talk-bubbles.webp?b=1&s=170667a&w=0&k=20&c=IeZry5PEuy2Tle2lvgWuVYEzHqbpezgBVCpAJLvOwwY='); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-color: rgba(145, 129, 245, 0.26);
+    border-radius: 50px;
+}
+
+.formcontainer {
+    border-radius: 15px;
+    /* border: 2px solid red; */
+    width: 50%;
+    padding: 25px;
+    padding-left: 20px;
+    margin: 50px;
+    margin-left: 300px;
+    background-color: slateblue;
+    backdrop-filter: blur(5px);
+}
+
+.inputbox {
+    /* border: 5px solid green; */
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    height: 100px;
+    text-align: center;
+
+}
+
+.inputbox>input {
+    border: none;
+    background-color: aliceblue;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 8px;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+
+.inputbox>textarea {
+    border: none;
+    background-color: aliceblue;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 8px;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+
+textarea:focus {
+    border: 4px solid greenyellow;
+    background-color: slateblue;
+    color: aliceblue;
+}
+
+.label_icon {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: cursive;
+
+    transition: all 1s;
+}
+
+input:focus {
+    border: 4px solid greenyellow;
+    background-color: slateblue;
+    color: aliceblue;
+}
+
+.inputbox>input:focus~.label_icon {
+    top: 10%;
+}
+.last{
+    border: 1px solid rebeccapurple;
+    padding-top: 50px;
+    margin: 50px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    height: 400px;
+    background-color: slateblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ .lastmap > iframe{
+    color: aliceblue;
+     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    
+     
+} 
+.lastmap> h1{
+    padding-left: 200px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+.con{
+    color: aliceblue;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.em{
+    color: aliceblue;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
